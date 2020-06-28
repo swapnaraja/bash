@@ -13,6 +13,11 @@ send_email "This is email with attachement" "success" "/home/email_template.txt"
 
 
 
+sample csv file (list.csv)
+-------------------
+id,name
+1,'Mary'
+
 #sending an email with table format of csv file
 
 (
@@ -52,3 +57,4 @@ echo <br><br>
 
 echo "</body></html>"
 ) > "/home/email_template.txt"
+
